@@ -10,12 +10,7 @@
  * @generated
  */
 
-'use strict';
-
-if (__DEV__) {
-  (function() {
 "use strict";
-
 require("react-native/Libraries/ReactPrivate/ReactNativePrivateInitializeCore");
 var ReactNativePrivateInterface = require("react-native/Libraries/ReactPrivate/ReactNativePrivateInterface"),
   React = require("react"),
@@ -8029,5 +8024,3 @@ var ReactNativeRenderer$2 = { default: ReactNativeRenderer },
   ReactNativeRenderer$3 =
     (ReactNativeRenderer$2 && ReactNativeRenderer) || ReactNativeRenderer$2;
 module.exports = ReactNativeRenderer$3.default || ReactNativeRenderer$3;
-})();
-}
